@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: JP_Hibernate2
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_jpa
+    username: postgres
+    password: 1111@2222@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        spring:
+          jpa:
+            show-sql=true:
